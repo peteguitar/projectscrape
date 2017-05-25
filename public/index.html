@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Projectscrape</title>
+    <style>
+      body { background-color: #000000 }
+      #wrapper {
+        width: 860px;
+        margin:auto;
+        padding-top: 5%;
+      }
+
+      i {
+        color: #00fb3a;
+        text-align: center;
+        padding-left:320px;
+
+        }
+
+     h1 {
+        color: #00fb3a;
+        text-align: -webkit-center;
+
+
+        }
+
+
+     p {
+        color: #00fb3a
+
+        }
+
+
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        margin-left: 170px; 
+        padding-top:30px;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 64px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>From Blabbermouth.net</h1>
+      <h2><i>Metal Head News!!!!!</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
